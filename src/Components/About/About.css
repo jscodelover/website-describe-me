@@ -1,0 +1,235 @@
+
+.wrapper{
+  height: auto;
+  text-align: center;
+}
+
+hr {
+    width: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    border: 1.5px #615858 solid;
+}
+
+.aboutHeading {
+    padding-top: 40px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #000;
+    font-size : 3rem;
+    margin-bottom: 20px;
+    font-family: 'Raleway-bold', sans-serif;
+    color: #615858;
+}
+
+.hobbyDiv i {
+    border: #04C2C9 solid 5px;
+    padding: 30px;
+    border-radius: 50%;
+    margin: 25px;
+    color: white;
+    background-color: #04C2C9;
+}
+
+.hobbyDiv i:hover {
+    color:#04C2C9;
+    background-color: white;
+    border: #04C2C9 solid 5px;
+    transition: 0.3s;
+}
+
+.imageHead{
+	font-size: 2rem;
+}
+
+.octo, .octo div {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+}
+.octo, .octo div {
+  width: 270px;
+  height: 270px;
+}
+.octo {
+  transform: rotate(45deg);
+}
+.octo1 {
+  transform: rotate(-45deg);
+
+  border: rgb(102, 109, 109) solid 3px;
+}
+
+.intro{
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.ques{
+  font-family: 'Raleway-bold', sans-serif;
+  font-size: 25px;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.highlight{
+  color: #E31B6D;
+}
+
+.progressBar{
+  position: relative;
+  width: 100%;
+  height: 30px;
+  background: #eeeeee;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px #222;
+}
+.title{
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  float: left;
+  background: #04C2C9;
+  font-weight: bold;
+  color: #fff;
+  line-height: 2;
+  z-index: 2;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  box-shadow: 2px 0 2px #333;
+  text-shadow: 1px 1px 1px #000;
+}
+.progress_value{
+  position: relative;
+  float: right;
+  padding-right: 15px;
+  line-height: 2;
+  font-weight: bold;
+}
+.progress{
+  height: 30px;
+  position: absolute;
+  background: #058b90;
+  border-radius: 5px;
+  box-shadow: 2px 0 2px #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skills {
+  width: 80%;
+  position: relative;
+}
+
+.lines {
+}
+
+.line {
+  width: 2px;
+
+  position: absolute;
+
+  background: #eee;
+}
+
+.l__0 {
+    left: 0;
+  }
+.l__25 {
+    left: 25%;
+  }
+.l__50 {
+    left: 50%;
+  }
+
+.line__label {
+  display: block;
+  width: 100px;
+  text-align: center;
+}
+.title {
+    text-transform: uppercase;
+  }
+
+  .charts {
+  }
+  
+  .chart {
+    margin: 30px 0 0;
+  }
+  .chart:first-child {
+      margin: 0;
+    }
+
+  
+  .chart__title {
+  
+
+    }
+
+    .chart__horiz {
+    }
+    
+    .chart__bar {
+      height: 30px;
+      margin-bottom: 10px;
+    
+      background: linear-gradient(to left, #4cb8c4, #3cd3ad);
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+      
+    }
+    
+    .chart__label {
+      padding-left: 10px;
+      line-height: 30px;
+      color: white;
+    }
+    
+    

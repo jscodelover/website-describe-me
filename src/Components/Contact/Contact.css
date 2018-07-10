@@ -1,0 +1,123 @@
+.wrapper {
+	margin-bottom: 7px;
+	text-align: center;
+	height: auto;
+}
+
+.aboutHeading {
+    padding-top: 40px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #000;
+    font-size : 3rem;
+    margin-bottom: 20px;
+    font-family: 'Raleway-bold', sans-serif;
+    color: #615858;
+}
+
+
+.form_cont {
+    margin-top: 80px
+}
+
+.wrapper p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.wrapper label {
+    text-align: right;
+    padding-right: 80px;
+    text-transform: uppercase;
+}
+
+.wrapper input {
+    height: 40px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    border: solid 0.5px grey;
+}
+
+.wrapper textarea {
+    font-size: 20px;
+    border: solid .5px grey;
+}
+
+.button_col {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.send_e_button {
+    background-color: transparent;
+    border: 3px solid #BB1E1E;
+    border-radius: 45px;
+    width: 123px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 22px;
+    text-decoration: 25px;
+    color: #BB1E1E;
+}
+
+.send_e_button:hover {
+    background-color: #BB1E1E;
+    color: white;
+    border-color: white;
+    transition: 0.3s;
+}
+
+.contact_info {
+	margin-top: 35px;
+	font-size: 17px;
+}
+
+
+
+.dl_vertical{
+	overflow:hidden;
+}
+
+.dl_vertical dt{
+	display: block;
+	float: left;
+	clear: both;
+	width: 150px;
+	font-weight : lighter;
+}
+
+.dl_vertical dd{
+	display:block;
+	float:left;
+	margin:0
+}
+
+.dl_vertical a:hover{
+	text-decoration: none;
+	color: #04959a;
+}
+
+.dl_vertical a{
+	color: #BB1E1E;
+}
+
+.formControl{
+	display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.formControl:focus {
+	border-color: #04c2c9;
+	box-shadow: 0 0 0 0.2rem #04c2c966;
+    color: #495057;
+    background-color: #fff;
+    outline: 0;
+}    

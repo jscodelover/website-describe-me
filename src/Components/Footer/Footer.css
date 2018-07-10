@@ -1,0 +1,12 @@
+footer {
+    background-color: rgba(0,0,0,0.808);
+    height: 56px;
+}
+
+footer p {
+	line-height: 53px;
+    color: lightgrey;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 0;
+}
